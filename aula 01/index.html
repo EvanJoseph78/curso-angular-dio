@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portal de notícias</title>
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css" />
     <script src="src/components/CardNews.js" defer></script>
     <script src="src/components/TituloDinamico.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="card">
-            <div class="card_left">
-                <span>Evandro Mariano</span>
-                <a href="#">Dart Vader contrata novos Devs </a>
-                <p>Procura-se desenvolvedor back-end e front-end</p>
-            </div>
-            <div class="card_right">
-                <img src="/assets/dart.jpeg" alt="imagem do dart vader">
-                
-            </div>
+      <div class="card">
+        <div class="card_left">
+          <span>Evandro Mariano</span>
+          <a href="#">Dart Vader contrata novos Devs </a>
+          <p>Procura-se desenvolvedor back-end e front-end</p>
         </div>
+        <div class="card_right">
+          <img src="/assets/dart.jpeg" alt="imagem do dart vader" />
+        </div>
+      </div>
+    </div>
 
-        
-    </div>    
-
-    <card-news></card-news>
-    
-</body>
+    <card-news
+      autor="Evandro José"
+      title="Estamos contratando novos devs"
+      content="Procura-se desenvolvedor back-end e front-end"
+    ></card-news>
+  </body>
 </html>
